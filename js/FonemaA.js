@@ -162,7 +162,7 @@ Abacaxi(){
     this.quad3.position.x = 1000;
     this.quad4.position.x = 1000;
     this.quad5.position.x = 1000;
-    this.fundo.postiton = 1000;
+    this.fundo.position = 1000;
     this.add.sprite(0,0,"FA1")
 
     this.voltar1.position.x = 1000;
@@ -262,7 +262,7 @@ Anel(){
     this.quad3.position.x = 1000;
     this.quad4.position.x = 1000;
     this.quad5.position.x = 1000;
-    this.fundo.postiton = 1000;
+    this.fundo.position = 1000;
     this.add.sprite(0,0,"FA2")
 
     this.voltar1.position.x = 1000;
@@ -341,7 +341,7 @@ Mala(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FA4")
 
   this.voltar1.position.x = 1000;
@@ -423,7 +423,7 @@ Alface(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FA5")
 
   this.voltar1.position.x = 1000;
@@ -511,7 +511,7 @@ Bala(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FA3")
 
   this.voltar1.position.x = 1000;

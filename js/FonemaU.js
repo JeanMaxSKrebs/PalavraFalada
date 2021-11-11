@@ -94,7 +94,7 @@ Urso(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FU3")
 
   this.voltar1.position.x = 1000;
@@ -184,7 +184,7 @@ Luva(){
           this.quad3.position.x = 1000;
           this.quad4.position.x = 1000;
           this.quad5.position.x = 1000;
-          this.fundo.postiton = 1000;
+          this.fundo.position = 1000;
           this.add.sprite(0,0,"FU4")
 
           this.voltar1.position.x = 1000;
@@ -260,7 +260,7 @@ Unha(){
               this.quad3.position.x = 1000;
               this.quad4.position.x = 1000;
               this.quad5.position.x = 1000;
-              this.fundo.postiton = 1000;
+              this.fundo.position = 1000;
               this.add.sprite(0,0,"FU2")
 
               this.voltar1.position.x = 1000;
@@ -342,7 +342,7 @@ Uva(){
       this.quad3.position.x = 1000;
       this.quad4.position.x = 1000;
       this.quad5.position.x = 1000;
-      this.fundo.postiton = 1000;
+      this.fundo.position = 1000;
       this.add.sprite(0,0,"FU5")
 
       this.voltar1.position.x = 1000;
@@ -421,7 +421,7 @@ Urubu(){
           this.quad3.position.x = 1000;
           this.quad4.position.x = 1000;
           this.quad5.position.x = 1000;
-          this.fundo.postiton = 1000;
+          this.fundo.position = 1000;
           this.add.sprite(0,0,"FU1")
 
           this.voltar1.position.x = 1000;

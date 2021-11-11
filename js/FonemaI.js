@@ -87,7 +87,7 @@ Caixa(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FI1")
 
   this.voltar1.position.x = 1000;
@@ -192,7 +192,7 @@ Abacaxi(){
       this.quad3.position.x = 1000;
       this.quad4.position.x = 1000;
       this.quad5.position.x = 1000;
-      this.fundo.postiton = 1000;
+      this.fundo.position = 1000;
       this.add.sprite(0,0,"FI2")
 
       this.voltar1.position.x = 1000;
@@ -292,7 +292,7 @@ Ima(){
       this.quad3.position.x = 1000;
       this.quad4.position.x = 1000;
       this.quad5.position.x = 1000;
-      this.fundo.postiton = 1000;
+      this.fundo.position = 1000;
       this.add.sprite(0,0,"FI3")
 
       this.voltar1.position.x = 1000;
@@ -376,7 +376,7 @@ Igreja(){
       this.quad3.position.x = 1000;
       this.quad4.position.x = 1000;
       this.quad5.position.x = 1000;
-      this.fundo.postiton = 1000;
+      this.fundo.position = 1000;
       this.add.sprite(0,0,"FI4")
 
       this.voltar1.position.x = 1000;
@@ -470,7 +470,7 @@ Ilha(){
       this.quad3.position.x = 1000;
       this.quad4.position.x = 1000;
       this.quad5.position.x = 1000;
-      this.fundo.postiton = 1000;
+      this.fundo.position = 1000;
       this.add.sprite(0,0,"FI5")
 
       this.voltar1.position.x = 1000;

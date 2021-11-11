@@ -146,7 +146,7 @@ Pente(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FE1")
 
   this.voltar1.position.x = 1000;
@@ -227,7 +227,7 @@ Elefante(){
     this.quad3.position.x = 1000;
     this.quad4.position.x = 1000;
     this.quad5.position.x = 1000;
-    this.fundo.postiton = 1000;
+    this.fundo.position = 1000;
     this.add.sprite(0,0,"FE2")
 
     this.voltar1.position.x = 1000;
@@ -331,7 +331,7 @@ Espada(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FE3")
 
   this.voltar1.position.x = 1000;
@@ -419,7 +419,7 @@ Escova(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FE4")
 
   this.voltar1.position.x = 1000;
@@ -507,7 +507,7 @@ Arvore(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FE5")
 
   this.voltar1.position.x = 1000;

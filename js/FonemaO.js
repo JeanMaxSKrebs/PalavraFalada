@@ -117,7 +117,7 @@ Navio(){
   this.quad3.position.x = 1000;
   this.quad4.position.x = 1000;
   this.quad5.position.x = 1000;
-  this.fundo.postiton = 1000;
+  this.fundo.position = 1000;
   this.add.sprite(0,0,"FO1")
 
   this.voltar1.position.x = 1000;
@@ -226,7 +226,7 @@ Ovo(){
         this.quad3.position.x = 1000;
         this.quad4.position.x = 1000;
         this.quad5.position.x = 1000;
-        this.fundo.postiton = 1000;
+        this.fundo.position = 1000;
         this.add.sprite(0,0,"FO4")
 
         this.voltar1.position.x = 1000;
@@ -307,7 +307,7 @@ Lobo(){
             this.quad3.position.x = 1000;
             this.quad4.position.x = 1000;
             this.quad5.position.x = 1000;
-            this.fundo.postiton = 1000;
+            this.fundo.position = 1000;
             this.add.sprite(0,0,"FO5")
 
             this.voltar1.position.x = 1000;
@@ -387,7 +387,7 @@ Olho(){
       this.quad3.position.x = 1000;
       this.quad4.position.x = 1000;
       this.quad5.position.x = 1000;
-      this.fundo.postiton = 1000;
+      this.fundo.position = 1000;
       this.add.sprite(0,0,"FO2")
 
       this.voltar1.position.x = 1000;
@@ -472,7 +472,7 @@ Ovelha(){
           this.quad3.position.x = 1000;
           this.quad4.position.x = 1000;
           this.quad5.position.x = 1000;
-          this.fundo.postiton = 1000;
+          this.fundo.position = 1000;
           this.add.sprite(0,0,"FO3")
 
           this.voltar1.position.x = 1000;
