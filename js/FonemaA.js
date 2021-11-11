@@ -150,10 +150,6 @@ voltar2(){
 voltar4(){
   game.state.start('FonemaA');
 }
-  teste(){
-    this.fundo = this.add.sprite(0,0,"ceuA");
-    this.fundo.scene.position.x = 1000;
-  }
 
 
 Abacaxi(){

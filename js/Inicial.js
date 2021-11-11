@@ -18,9 +18,6 @@ class Inicial
     this.text.setTextBounds(0, 0, 0, 0);
     game.stage.backgroundColor = "#1D8B8B";
     this.load.image("fundo","assets/TelaOficial.jpeg");
-    this.load.image("fundo2","assets/fundoInicial2aa.png");
-    this.load.image("fundo3","assets/fundoInicial4a.png");
-    this.load.image("fundo4","assets/fundoInicial5a.png");
     this.load.image("play","assets/BotaoInicial.jpeg");
     this.load.image("menu","assets/BotaoMenu2.png");
     this.load.image("quadrado","assets/QuadradoInfo.png");
@@ -42,7 +39,6 @@ class Inicial
    this.load.image("Text2", "assets/Text2.png");
    this.load.image("FF", "assets/FF.png");
    this.load.image("FF3", "assets/FF3.png");
-   this.load.image("ceuA","assets/A1.png");
    
    this.load.image("Seta","assets/Seta3aa.png");
    this.load.image("Seta2","assets/Seta4.png");
@@ -69,7 +65,6 @@ class Inicial
    this.load.image("Proximo","assets/Proximo4.png");
 
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("Fundo321","assets/Fundo321.PNG");
    this.load.image("LB","assets/LetraB.png");
    this.load.image("Escolha","assets/Escolha4.png");
    this.load.image("Escolha2","assets/Escolha5.png");
@@ -385,7 +380,7 @@ class Inicial
    this.load.image("Jipe","assets/FonemaJ/Jipe.png");
    this.load.image("Juiz","assets/FonemaJ/Juiz.JFIF");
    this.load.image("Tijolo","assets/FonemaJ/Tijolo.png");
-   this.load.image("ceu","assets/fundo321.png");
+   this.load.image("ceu","assets/ceu.png");
    this.load.image("Igreja","assets/FonemaI/Igreja.png");
    this.load.image("Ilha","assets/FonemaI/Ilha.png");
    this.load.image("Ima","assets/FonemaI/Ima.png");
@@ -519,7 +514,6 @@ class Inicial
    this.load.image("Repetir","assets/Repetir2.png");
 
    this.load.image("FMA1","assets/FMA1.png");
-   this.load.image("FMA2","assets/FMA2.png");
    this.load.image("FMA3","assets/FMA3.png");
    this.load.image("Mac","assets/Mac3.png");
    this.load.image("Arm","assets/Arm.png");
@@ -534,18 +528,15 @@ class Inicial
 
    this.load.image("FMI1","assets/FMI1.png");
    this.load.image("FMI2","assets/FMI2.png");
-   this.load.image("FMI3","assets/FMI3.png");
    this.load.image("Mil","assets/Mil.png");
    this.load.image("Com","assets/Com.png");
 
    this.load.image("FMO1","assets/FMO1.png");
    this.load.image("FMO2","assets/FMO2.png");
-   this.load.image("FMO3","assets/FMO3.png");
    this.load.image("Mot","assets/Mot.png");
 
    this.load.image("FMU1","assets/FMU1.png");
    this.load.image("FMU2","assets/FMU2.png");
-   this.load.image("FMU3","assets/FMU3.png");
    this.load.image("Mur","assets/Mur.png");
    this.load.image("Tum","assets/Tum.png");
    this.load.image("FSO1","assets/FSO1.png");
@@ -557,7 +548,6 @@ class Inicial
 
    this.load.image("FSU1","assets/FSU1.png");
    this.load.image("FSU2","assets/FSU2.png");
-   this.load.image("FSU3","assets/FSU3.png");
    this.load.image("Suc","assets/Suc2.png");
    this.load.image("Pre","assets/Pre.png");
 

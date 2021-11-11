@@ -236,7 +236,7 @@ Armario(){
   this.quad2.position.x = 1000;
   this.quad5.position.x = 1000;
   this.fundo.position.x = 1000;
-  this.fundo2 = this.add.sprite(0,0,"FMA2");
+  this.fundo2 = this.add.sprite(0,0,"FMA1");
   this.fundo.position.x = 1000;
 
   this.voltar1.position.x = 1000;
