@@ -29,11 +29,11 @@ class FBola
    this.load.image("Bicicleta2","assets/FonemaB/Bicicleta4.png");
    
     
-   this.load.image("FF3","assets/Fundo321.PNG");
-   this.load.image("LB","assets/Lb3.PNG");
-   this.load.image("FCE","assets/FBO2.PNG");
-   this.load.image("FBO3","assets/FBO3.PNG");
-   this.load.image("FBO4","assets/FBO4.PNG");
+   this.load.image("FF3","assets/Fundo321.png");
+   this.load.image("LB","assets/Lb3.png");
+   this.load.image("FBO2","assets/FBO2.png");
+   this.load.image("FBO3","assets/FBO3.png");
+   this.load.image("FBO4","assets/FBO4.png");
    this.load.image("Voltar","assets/Voltar2.png");
    this.load.image("Voltar2","assets/Voltar2.png");
    this.load.image("Escolha","assets/Escolha2.png");
