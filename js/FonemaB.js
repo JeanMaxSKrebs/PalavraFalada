@@ -245,7 +245,6 @@ REPETIR1BA(){
 }
 COMECAR(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Comecar.mp3";
   this.audio.play();
 }
 SETA(){
@@ -550,7 +549,6 @@ REPETIR1BE(){
 }
 COMECAR(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Comecar.mp3";
   this.audio.play();
 }
 SETA(){
@@ -833,7 +831,6 @@ REPETIR1BI(){
 }
 COMECAR(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Comecar.mp3";
   this.audio.play();
 }
 SETA(){
@@ -1119,7 +1116,6 @@ REPETIR1BO1(){
 }
 COMECAR(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Comecar.mp3";
   this.audio.play();
 }
 SETA(){
@@ -1418,7 +1414,6 @@ REPETIR1BU1(){
 }
 COMECAR(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Comecar.mp3";
   this.audio.play();
 }
 SETA(){

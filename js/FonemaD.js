@@ -192,7 +192,6 @@ REPETIR1DA1(){
 }
 COMECAR(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Comecar.mp3";
   this.audio.play();
 }
 SETA(){
