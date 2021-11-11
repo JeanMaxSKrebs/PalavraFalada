@@ -16,8 +16,9 @@ class FonemaB
  preload()
 
  {
-   
-   
+  
+  this.load.image("Aba2a","assets/Aba2a.png");
+
 
  }
  create()
