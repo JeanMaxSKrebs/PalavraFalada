@@ -116,7 +116,7 @@ class Inicial
    this.load.image("FBU3","assets/FBU3.png");
     
    this.load.image("Roxo2", "assets/Roxo2.png");
-   this.load.image("LC","assets/LetraC.PNG");
+   this.load.image("LC","assets/LetraC.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("Cav","assets/Cav.png");
    this.load.image("Pip","assets/Pip.png");
@@ -374,7 +374,6 @@ class Inicial
 
    this.load.image("Jegue","assets/FonemaJ/Jegue.png");
    this.load.image("Jipe","assets/FonemaJ/Jipe.png");
-   this.load.image("Juiz","assets/FonemaJ/Juiz.JFIF");
    this.load.image("Tijolo","assets/FonemaJ/Tijolo.png");
    this.load.image("ceu","assets/ceu.png");
    this.load.image("Igreja","assets/FonemaI/Igreja.png");
@@ -434,7 +433,8 @@ class Inicial
    this.load.image("FJU1","assets/FJU1.png");
    this.load.image("FJU3","assets/FJU3.png");
    this.load.image("Jui","assets/Jui.png");
-   this.load.image("Cir","assets/Cir2.png");
+   this.load.image("Cir","assets/Cir.png");
+   this.load.image("Cir2","assets/Cir2.png");
    this.load.image("Caj","assets/Caj.png");
 
    this.load.image("LJ","assets/LetraJ.png");

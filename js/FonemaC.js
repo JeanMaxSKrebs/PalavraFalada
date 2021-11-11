@@ -1472,7 +1472,7 @@ Circulo(){
   this.comecar.events.onInputDown.add(this.INICIO1CU2, this);
 
 
-  this.add.sprite(110, 65,"Cir");
+  this.add.sprite(110, 65,"Cir2");
 
   var circulo2 = this.add.sprite(220, 240,"grande", 29);
 
