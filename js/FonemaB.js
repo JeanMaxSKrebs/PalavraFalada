@@ -814,7 +814,7 @@ BI1BI(){
 }
 CO1BI(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/CO.mp3";
+  this.audio.src = "assets/sons/co.mp3";
   this.audio.play();
 
   this.linha.position.x = 350;
