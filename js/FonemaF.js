@@ -254,7 +254,7 @@ INICIO1FA2(){
 }
 AL2FA2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/AL.mp3";
+  this.audio.src = "assets/sons/al.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(165, 140,"Linha");
