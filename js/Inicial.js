@@ -83,7 +83,7 @@ class Inicial
    this.load.image("Bi","assets/Bi.png");
    this.load.image("Bo","assets/Bo.png");
    this.load.image("Bu","assets/Bu.png");
-   this.load.image("Aba","assets/Aba2a.png");
+   this.load.image("Aba2a","assets/Aba2a.png");
    this.load.image("Bar","assets/Bar.png");
    this.load.image("Bat","assets/Bat.png");
    this.load.image("FBA1","assets/FBA1.png");

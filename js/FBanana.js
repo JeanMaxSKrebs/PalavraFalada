@@ -43,7 +43,6 @@ class FBanana
    this.load.image("Abacate2","assets/FonemaB/Abacate2.png");
    this.load.image("Barba2","assets/FonemaB/Barba2.png");
    this.load.image("Batata2","assets/FonemaB/Batata2.png");
-   this.load.image("Aba","assets/Aba2a.png");
    this.load.image("Bar","assets/Bar.png");
    this.load.image("Bat","assets/Bat.png");
    this.load.image("FBA1","assets/FBA1.png");
