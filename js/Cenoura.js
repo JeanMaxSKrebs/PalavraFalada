@@ -15,7 +15,6 @@ class Cenoura
  preload()
 
  {
-   this.load.image("ceu","assets/FCE.png");
    this.load.image("Bola","assets/FonemaB/Bola2.png");
    this.load.image("Bola2","assets/FonemaB/Bola3.png");
    this.load.image("Abelha","assets/FonemaB/Abelha2.png");

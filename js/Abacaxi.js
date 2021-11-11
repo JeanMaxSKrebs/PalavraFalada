@@ -14,9 +14,7 @@ class Abacaxi
  }
  preload()
 
- {
-   this.load.image("ceu","assets/FBE.png");
-   
+ {   
    this.load.image("Seta","assets/Seta3aa.png");
    this.load.image("Seta2","assets/Seta4.png");
    this.load.image("Proximo","assets/Proximo4.png");
