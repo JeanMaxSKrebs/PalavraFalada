@@ -136,7 +136,6 @@ class Inicial
    this.load.image("Cu","assets/Cu.png");
    this.load.image("Escolha2","assets/Escolha5.png");
    this.load.image("FCA1","assets/FCA1.png");
-   this.load.image("FCA2","assets/FCA2.png");
    this.load.image("FBA1","assets/FBA1.png");
    this.load.image("FCA3","assets/FCA3.png");
    this.load.image("Repetir","assets/Repetir2.png");
@@ -276,7 +275,6 @@ class Inicial
    this.load.image("Alf","assets/Alf.png");
    this.load.image("Gir","assets/Gir.png");
    this.load.image("FFI1","assets/FFI1.png");
-   this.load.image("FFI2","assets/FFI2.png");
    this.load.image("FFI3","assets/FFI3.png");
 
    this.load.image("Foc","assets/Foc.png");
@@ -291,7 +289,6 @@ class Inicial
    this.load.image("Gir","assets/Gir.png");
    this.load.image("FFU1","assets/FFU1.png");
    this.load.image("FFU2","assets/FFU2.png");
-   this.load.image("FFU3","assets/FFU3.png");
 
    this.load.image("Ga","assets/Ga.png");
    this.load.image("Ge","assets/Ge.png");
@@ -352,7 +349,6 @@ class Inicial
    this.load.image("Cog","assets/Cog.png");
    this.load.image("Cag","assets/Cag.png");
    this.load.image("Bex","assets/Bex2.png");
-   this.load.image("FGU1","assets/FGU1.png");
    this.load.image("FGU2","assets/FGU2.png");
    this.load.image("FGA3","assets/FBI4.png");
 
@@ -419,14 +415,11 @@ class Inicial
 
    this.load.image("FJE1","assets/FJE1.png");
    this.load.image("FJE2","assets/FJE2.png");
-   this.load.image("FJE3","assets/FJE3.png");
    this.load.image("Jeg","assets/Jeg.png");
    this.load.image("Lar","assets/Lar.png");
    this.load.image("Alc","assets/Alc.png");
 
    this.load.image("FJI1","assets/FJI1.png");
-   this.load.image("FJI2","assets/FJI2.png");
-   this.load.image("FJI3","assets/FJI3.png");
    this.load.image("Jip","assets/Jip.png");
    this.load.image("Bac","assets/Bac.png");
    this.load.image("Sac","assets/Sac.png");
@@ -439,7 +432,6 @@ class Inicial
    this.load.image("Bei","assets/Bei.png");
 
    this.load.image("FJU1","assets/FJU1.png");
-   this.load.image("FJU2","assets/FJU2.png");
    this.load.image("FJU3","assets/FJU3.png");
    this.load.image("Jui","assets/Jui.png");
    this.load.image("Cir","assets/Cir2.png");
@@ -475,7 +467,6 @@ class Inicial
 
    this.load.image("FLI1","assets/FLI1.png");
    this.load.image("FLI2","assets/FLI2.png");
-   this.load.image("FLI3","assets/FLI3.png");
    this.load.image("Lim","assets/Lim.png");
    this.load.image("Gal","assets/Gal.png");
 
@@ -488,7 +479,6 @@ class Inicial
 
    this.load.image("FLU1","assets/FLU1.png");
    this.load.image("FLU2","assets/FLU2.png");
-   this.load.image("FLU3","assets/FLU3.png");
    this.load.image("Luv","assets/Luv.png");
    this.load.image("Alu","assets/Alu.png");
    
@@ -532,7 +522,6 @@ class Inicial
    this.load.image("Com","assets/Com.png");
 
    this.load.image("FMO1","assets/FMO1.png");
-   this.load.image("FMO2","assets/FMO2.png");
    this.load.image("Mot","assets/Mot.png");
 
    this.load.image("FMU1","assets/FMU1.png");
