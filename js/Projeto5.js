@@ -20,7 +20,6 @@ class Projeto5
    this.load.image("Seta2","assets/Seta4.png");
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Linha","assets/Linha2a.png");
-   this.load.image("ceu","assets/fundo7.jpg");
    this.load.image("Macaco","assets/Animais/Macaco2.png");
    this.load.image("Seta","assets/Seta3aa.png");
    this.load.image("Seta2","assets/Seta4.png");

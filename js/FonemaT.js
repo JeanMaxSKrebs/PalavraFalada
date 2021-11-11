@@ -16,7 +16,6 @@ class FonemaT
  preload()
 
  {
-   this.load.image("ceu","assets/fundo321.png");
    this.load.image("Bota","assets/FonemaT/Bota.png");
    this.load.image("Tapete","assets/FonemaT/Tapete.png");
    this.load.image("Tatu","assets/FonemaT/tatu.png");

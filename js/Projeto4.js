@@ -67,7 +67,6 @@ class Projeto4
  preload()
 
  {
-   this.load.image("ceu","assets/fundo40.jpg");
    this.load.image("PatoM","assets/Animais/PatoM.png");
    this.load.image("PatoF","assets/Animais/PATOF.png");
    

@@ -15,7 +15,6 @@ class FBicicleta
  preload()
 
  {
-   this.load.image("ceu","assets/Fundo321.png");
    this.load.image("Bico","assets/FonemaB/Bico.png");
    this.load.image("Bebida","assets/FonemaB/Bebida.png");
    this.load.image("Bebida2","assets/FonemaB/Bebida2.png");

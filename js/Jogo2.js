@@ -16,7 +16,6 @@ class Jogo2
  preload()
 
  {
-   this.load.image("ceu","assets/fundo222.jpg");
    this.load.image("Abelha","assets/Fonema B/Abelha2.png");
    this.load.image("Bola","assets/Fonema B/Bola2.png");
    this.load.image("Bicicleta","assets/Fonema B/Bicicleta3.png");

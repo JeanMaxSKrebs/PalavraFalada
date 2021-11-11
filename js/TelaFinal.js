@@ -16,7 +16,6 @@ class TelaFinal
  preload()
 
  {
-   this.load.image("ceu","assets/fundo80.jpg");
    this.load.image("Peixe","assets/Animais/Peixe2.png");
    this.load.image("Porco","assets/Animais/Porco2.png");
    

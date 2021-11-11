@@ -15,7 +15,6 @@ class FBanana
  preload()
 
  {
-   this.load.image("ceu","assets/Fundo321.png");
    this.load.image("Batata","assets/FonemaB/batata.png");
    this.load.image("Barba","assets/FonemaB/Barba.png");
    this.load.image("Abacate","assets/FonemaB/Abacate.png");

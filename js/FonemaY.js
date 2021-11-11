@@ -15,7 +15,6 @@ class FonemaY
  preload()
 
  {
-   this.load.image("ceu","assets/fundo222.jpg");
    this.load.image("Mickey","assets/FonemaY/Mickey.png");
    this.load.image("Melancia","assets/Fonema M/Melancia2.png");
    this.load.image("Mochila","assets/Fonema M/Mochila5.png");

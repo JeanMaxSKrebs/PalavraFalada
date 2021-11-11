@@ -16,7 +16,6 @@ class Projeto3
  preload()
 
  {
-   this.load.image("ceu","assets/fundo34.jpg");
    this.load.image("PatoM","assets/Animais/PatoM.png");
    this.load.image("PatoF","assets/Animais/PATOF.png");
    this.load.image("I","assets/Letras/I.png");

@@ -15,7 +15,6 @@ class FonemaW
  preload()
 
  {
-   this.load.image("ceu","assets/fundo222.jpg");
    this.load.image("Kiwi","assets/FonemaW/Kiwi.png");
    this.load.image("Wafer","assets/FonemaW/Wafer.png");
    this.load.image("Wolverine","assets/FonemaW/Wolverine.png");

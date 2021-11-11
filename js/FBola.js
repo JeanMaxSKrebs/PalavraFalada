@@ -15,7 +15,6 @@ class FBola
  preload()
 
  {
-   this.load.image("ceu","assets/Fundo321.png");
    this.load.image("Boca","assets/FonemaB/Boca.png");
    this.load.image("Boca2","assets/FonemaB/Boca2.png");
    this.load.image("Cebola","assets/FonemaB/Cebola.png");

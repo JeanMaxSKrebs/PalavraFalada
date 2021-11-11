@@ -15,7 +15,6 @@ class FAbelha
  preload()
 
  {
-   this.load.image("ceu","assets/Fundo321.png");
    this.load.image("Bexiga","assets/FonemaB/Bexiga.png");
    this.load.image("Bebe","assets/FonemaB/Bebe.png");
    this.load.image("Cabelo","assets/FonemaB/Cabelo.png");
