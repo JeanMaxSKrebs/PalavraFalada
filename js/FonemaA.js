@@ -468,7 +468,7 @@ INICIO4(){
 }
 AL4(){
 
-  this.audio.src = "assets/sons/AL.mp3";
+  this.audio.src = "assets/sons/al.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(165, 140,"Linha");
