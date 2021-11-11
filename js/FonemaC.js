@@ -690,7 +690,7 @@ INICIO1CE3(){
 }
 AL3CE3(){
 
-  this.audio.src = "assets/sons/AL.mp3";
+  this.audio.src = "assets/sons/al.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(210, 140,"Linha");
