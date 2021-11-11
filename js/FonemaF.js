@@ -15,7 +15,6 @@ class FonemaF {
 
  {
  
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Linha2","assets/Linha2aa.png");
    
    this.load.image("Começar","assets/Comecar2.png");

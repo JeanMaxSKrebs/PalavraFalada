@@ -32,7 +32,6 @@ class Bicicleta
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Linha","assets/LinhaBI.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Voltar","assets/Voltar.png");
    this.load.image("Escolha","assets/Escolha.png");
    this.load.image("Começar","assets/Comecar2.png");

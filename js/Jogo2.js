@@ -27,7 +27,6 @@ class Jogo2
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Linha","assets/Linha2a.png");
 
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
 
 
  }

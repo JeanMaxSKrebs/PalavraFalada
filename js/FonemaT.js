@@ -27,7 +27,6 @@ class FonemaT
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Linha","assets/Linha2a.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Linha2","assets/LinhaBE3.png");
    this.load.image("Repetir","assets/Repetir2.png");
    this.load.image("LT","assets/LetraT.png");

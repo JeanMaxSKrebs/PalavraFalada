@@ -10,7 +10,7 @@ class Inicial
     let tamanhoTexto = 60;
     
     var style = { font: "bold "+tamanhoTexto+"px Arial", fill: "#fff", boundsAlignH: "center", boundsAlignV: "middle" };
-    console.log(style)
+    // console.log(style)
     //  The Text is positioned at 0, 100
     this.text = game.add.text(width/2, height/2, "CARREGANDO ....", style);
     this.text.setShadow(3, 3, 'rgba(0,0,0,0.5)', 2);
@@ -69,7 +69,6 @@ class Inicial
    this.load.image("Proximo","assets/Proximo4.png");
 
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Fundo321","assets/Fundo321.PNG");
    this.load.image("LB","assets/LetraB.png");
    this.load.image("Escolha","assets/Escolha4.png");
@@ -181,7 +180,6 @@ class Inicial
    this.load.image("Proximo","assets/Proximo4.png");
  
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("LD","assets/LetraD.png");
   this.load.image("Começar2","assets/Comecar.png");
@@ -251,7 +249,6 @@ class Inicial
    this.load.image("Proximo","assets/Proximo4.png");
 
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("LD","assets/Ld2.png");
    this.load.image("LF","assets/LetraF.png");
@@ -311,7 +308,6 @@ class Inicial
    this.load.image("Proximo","assets/Proximo4.png");
   
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("LD","assets/Ld2.png");
    this.load.image("Repetir","assets/Repetir2.png");
@@ -322,7 +318,6 @@ class Inicial
    this.load.image("Proximo","assets/Proximo4.png");
   
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("LD","assets/LetraD.png");
    this.load.image("LE","assets/LetraE.png");
@@ -510,7 +505,6 @@ class Inicial
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("LM","assets/LetraM.png");
 
-   this.load.image("inimigo2", "assets/inimigo2aa.png");
 
    this.load.image("Ma","assets/Ma.png");
    this.load.image("Me","assets/Me.png");
