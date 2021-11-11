@@ -30,8 +30,6 @@ class FBule
    this.load.image("Linha","assets/Linha2a.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("inimigo2", "assets/inimigo2aa.png");
-   this.load.image("FF3","assets/Fundo321.PNG");
-   this.load.image("LB","assets/Lb3.PNG");
    this.load.image("Voltar","assets/Voltar2.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("Bol","assets/Bol.png");
@@ -62,8 +60,6 @@ class FBule
     //this.LetraB();
     this.fundo = this.add.sprite(0,0,"ceu");
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
-
-    this.add.sprite(0,0,"FF3");
 
     this.cursors = this.input.keyboard.createCursorKeys();
 
@@ -111,7 +107,6 @@ class FBule
 
     this.escolha = this.add.sprite(130, 70,"Escolha");
 
-    this.lb = this.add.sprite(-10, 0,"LB");
 
 
 
@@ -139,7 +134,6 @@ Onibus(){
   this.abelha.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;
@@ -251,7 +245,6 @@ Bambu(){
   this.abelha.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;
@@ -347,7 +340,6 @@ Buzina(){
   this.buzina.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;

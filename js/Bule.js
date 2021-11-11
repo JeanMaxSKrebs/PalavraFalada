@@ -27,8 +27,6 @@ class Bule
    this.load.image("Bicicleta2","assets/FonemaB/Bicicleta4.png");
  
     
-   this.load.image("FF3","assets/Preto.PNG");
-   this.load.image("LB","assets/Lb.PNG");
    this.load.image("Voltar","assets/Voltar2.png");
    this.load.image("Começar","assets/Comecar.png");
    this.load.image("Repetir","assets/Repetir.png");
@@ -45,8 +43,6 @@ class Bule
  {
     this.add.sprite(0,0,"ceu");
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
-
-    // /this.add.sprite(0,0,"FF3");
 
     this.cursors = this.input.keyboard.createCursorKeys();
 

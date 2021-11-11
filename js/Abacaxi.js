@@ -22,8 +22,6 @@ class Abacaxi
    this.load.image("Linha2","assets/LinhaBE.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("inimigo2", "assets/inimigo2aa.png");
-   this.load.image("FF3","assets/Preto.PNG");
-   this.load.image("LB","assets/Lb.PNG");
    this.load.image("Voltar","assets/Voltar.png");
    this.load.image("Começar","assets/Comecar2.png");
    this.load.image("Repetir","assets/Repetir2.png");

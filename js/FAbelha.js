@@ -30,8 +30,7 @@ class FAbelha
    this.load.image("Linha","assets/Linha2a.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("inimigo2", "assets/inimigo2aa.png");
-   this.load.image("FF3","assets/Fundo321.PNG");
-   this.load.image("LB","assets/Lb3.PNG");
+
    this.load.image("Voltar","assets/Voltar2.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("Bol","assets/Bol.png");
@@ -59,8 +58,6 @@ class FAbelha
     //this.LetraB();
     this.fundo = this.add.sprite(0,0,"ceu");
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
-
-    this.add.sprite(0,0,"FF3");
 
     this.cursors = this.input.keyboard.createCursorKeys();
 
@@ -108,7 +105,6 @@ class FAbelha
 
     this.escolha = this.add.sprite(130, 70,"Escolha");
 
-    this.lb = this.add.sprite(-10, 0,"LB");
 
 
 
@@ -135,7 +131,6 @@ Cabelo(){
   this.bexiga.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;
@@ -244,7 +239,6 @@ Bebe(){
   this.bexiga.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;
@@ -341,7 +335,6 @@ Bexiga(){
   this.bexiga.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;

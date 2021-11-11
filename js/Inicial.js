@@ -40,14 +40,15 @@ class Inicial
    this.load.image("FF2", "assets/Fundo1234.png");
    this.load.image("Text", "assets/Text.png");
    this.load.image("Text2", "assets/Text2.png");
-   this.load.image("FF3", "assets/FF.png");
+   this.load.image("FF", "assets/FF.png");
+   this.load.image("FF3", "assets/FF3.png");
    this.load.image("ceuA","assets/A1.png");
    
    this.load.image("Seta","assets/Seta3aa.png");
    this.load.image("Seta2","assets/Seta4.png");
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("FF3","assets/FFFF.png");
+   this.load.image("FFFF","assets/FFFF.png");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("LA","assets/LetraA.png");
    this.load.image("Ane","assets/Ane.png");
@@ -69,7 +70,7 @@ class Inicial
 
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("inimigo2", "assets/inimigo2aa.png");
-   this.load.image("FF3","assets/Fundo321.PNG");
+   this.load.image("Fundo321","assets/Fundo321.PNG");
    this.load.image("LB","assets/LetraB.png");
    this.load.image("Escolha","assets/Escolha4.png");
    this.load.image("Escolha2","assets/Escolha5.png");
@@ -121,7 +122,6 @@ class Inicial
    this.load.image("FBU3","assets/FBU3.png");
     
    this.load.image("Roxo2", "assets/Roxo2.png");
-   this.load.image("FF3","assets/Preto.PNG");
    this.load.image("LC","assets/LetraC.PNG");
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("Cav","assets/Cav.png");
@@ -370,7 +370,7 @@ class Inicial
    this.load.image("Seta2","assets/Seta4.png");
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("FF3","assets/FFFF.png");
+   this.load.image("FFFF","assets/FFFF.png");
    this.load.image("Escolha","assets/Escolha2.png");
   
    this.load.image("FI1","assets/FI1.png");
@@ -399,7 +399,7 @@ class Inicial
    this.load.image("Seta2","assets/Seta4.png");
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
-   this.load.image("FF3","assets/FFFF.png");
+   this.load.image("FFFF","assets/FFFF.png");
    //fica esse
    this.load.image("Voltar","assets/Voltar2.png");
    this.load.image("Voltar2","assets/Voltar.png");

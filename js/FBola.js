@@ -27,9 +27,6 @@ class FBola
    this.load.image("Bicicleta","assets/FonemaB/Bicicleta3.png");
    this.load.image("Bicicleta2","assets/FonemaB/Bicicleta4.png");
    
-    
-   this.load.image("FF3","assets/Fundo321.png");
-   this.load.image("LB","assets/Lb3.png");
    this.load.image("FBO2","assets/FBO2.png");
    this.load.image("FBO3","assets/FBO3.png");
    this.load.image("FBO4","assets/FBO4.png");
@@ -98,8 +95,6 @@ class FBola
 
     this.escolha = this.add.sprite(130, 70,"Escolha");
 
-    this.lb = this.add.sprite(-10, 0,"LB");
-
     game.time.events.repeat(Phaser.Timer.SECOND * 0.5, 1, this.Outra, this);
 
 
@@ -124,7 +119,6 @@ Boca(){
   this.boca.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;
@@ -231,7 +225,6 @@ Lobo(){
   this.boca.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;
@@ -325,7 +318,6 @@ Cebola(){
   this.boca.sendToBack();
 
   this.escolha.sendToBack();
-  this.lb.sendToBack();
 
   this.voltar3 = this.add.sprite(10, 550,"Voltar2");
   this.voltar3.inputEnabled = true;

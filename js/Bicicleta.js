@@ -33,8 +33,6 @@ class Bicicleta
    this.load.image("Linha","assets/LinhaBI.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("inimigo2", "assets/inimigo2aa.png");
-   this.load.image("FF3","assets/Preto.PNG");
-   this.load.image("LB","assets/Lb.PNG");
    this.load.image("Voltar","assets/Voltar.png");
    this.load.image("Escolha","assets/Escolha.png");
    this.load.image("Começar","assets/Comecar2.png");
@@ -52,7 +50,6 @@ class Bicicleta
     this.add.sprite(0,0,"ceu");
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
 
-    // /this.add.sprite(0,0,"FF3");
 
     this.cursors = this.input.keyboard.createCursorKeys();
 
