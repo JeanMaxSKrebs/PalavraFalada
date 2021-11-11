@@ -172,7 +172,7 @@ Abacate(){
   this.comecar.events.onInputDown.add(this.INICIO1BA, this);
 
 
-  this.add.sprite(130, 70,"Aba");
+  this.add.sprite(130, 70,"Aba2a");
 
   var abacate2 = this.add.sprite(200, 250,"grande",5);
 
