@@ -25,6 +25,7 @@ class FonemaB
     //this.audiojogo();
 
     //this.LetraB();
+    this.fundo = this.add.sprite(0,0,"ceu");
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
 
     this.add.sprite(0,0,"FF3");
