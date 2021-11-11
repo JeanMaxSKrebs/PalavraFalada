@@ -980,7 +980,7 @@ INICIO1CI3(){
 }
 SA3CI3(){
 
-  this.audio.src = "assets/sons/SA.mp3";
+  this.audio.src = "assets/sons/sa.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(200, 140,"Linha");
@@ -1109,7 +1109,7 @@ CO1CO1(){
 }
 RU1CO1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RU.mp3";
+  this.audio.src = "assets/sons/ru.mp3";
   this.audio.play();
 
   this.linha.position.x = 285;
@@ -1186,7 +1186,7 @@ INICIO1CO2(){
 }
 AN2CO2(){
 
-  this.audio.src = "assets/sons/AN.mp3";
+  this.audio.src = "assets/sons/an.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(155, 140,"Linha");
@@ -1275,7 +1275,7 @@ INICIO1CO3(){
   this.repetir.position.x = 1000;
 }
 SU3CO3(){
-  this.audio.src = "assets/sons/SU.mp3";
+  this.audio.src = "assets/sons/su.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(205, 140,"Linha");
@@ -1396,7 +1396,7 @@ INICIO1CU1(){
 }
 CU1CU1(){
 
-  this.audio.src = "assets/sons/CU.mp3";
+  this.audio.src = "assets/sons/cu.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(175, 140,"Linha");
@@ -1493,7 +1493,7 @@ INICIO1CU2(){
 }
 CIR2CU2(){
 
-  this.audio.src = "assets/sons/CIR.mp3";
+  this.audio.src = "assets/sons/cir.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(130, 143,"Linha");
@@ -1503,7 +1503,7 @@ CIR2CU2(){
 }
 CU2CU2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/CU.mp3";
+  this.audio.src = "assets/sons/cu.mp3";
   this.audio.play();
 
   this.linha.position.x = 307;
@@ -1593,7 +1593,7 @@ JA3CU3(){
 }
 CU3CU3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/CU.mp3";
+  this.audio.src = "assets/sons/cu.mp3";
   this.audio.play();
 
   this.linha.position.x = 355;
