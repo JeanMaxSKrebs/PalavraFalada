@@ -12,47 +12,11 @@ var tela2 = new Tela2();
 
 var fonemaA = new FonemaA();
 
-var abacaxi = new Abacaxi();
-
-var anel = new Anel();
-
-var bala = new Bala();
-
-var mala = new Mala();
-
-var alface = new Alface();
-
 var fonemaB = new FonemaB();
-
-var fbola = new FBola();
-
-var fbicicleta = new FBicicleta();
-
-var fabelha = new FAbelha();
-
-var fbanana = new FBanana();
-
-var fbule = new FBule();
-
-var bola = new Bola();
-
-var bicicleta = new Bicicleta();
-
-var bule = new Bule();
-
-var banana = new Banana();
 
 var fonemaC = new FonemaC();
 
-var caderno = new Caderno();
-
-var cuia = new Cuia();
-
-var cenoura = new Cenoura();
-
 var fonemaD = new FonemaD();
-
-//var fdado = new FDado();
 
 var fonemaE = new FonemaE();
 
@@ -137,8 +101,6 @@ game.state.add("FonemaS", fonemaS, true);
 
 game.state.add("FonemaR", fonemaR, true);
 
-
-
 game.state.add("FonemaP", fonemaP, true);
 
 game.state.add("FonemaO", fonemaO, true);
@@ -161,55 +123,17 @@ game.state.add("FonemaF", fonemaF, true);
 
 game.state.add("FonemaE", fonemaE, true);
 
-//game.state.add("FDado", fdado, true);
-
 game.state.add("FonemaD", fonemaD, true);
-
-game.state.add("Cuia", cuia, true);
-
-game.state.add("Cenoura", cenoura, true);
-
-game.state.add("Caderno", caderno, true);
 
 game.state.add("FonemaC", fonemaC, true);
 
-game.state.add("Bule", bule, true);
-
-game.state.add("Banana", banana, true);
-
-game.state.add("Bola", bola, true);
-
-game.state.add("Bicicleta", bicicleta, true);
-
-game.state.add("FBule", fbule, true);
-
-game.state.add("FBanana", fbanana, true);
-
-game.state.add("FAbelha", fabelha, true);
-
-game.state.add("FBicicleta", fbicicleta, true);
-
-game.state.add("FBola", fbola, true);
-
 game.state.add("FonemaB", fonemaB, true);
-
-game.state.add("Alface", alface, true);
-
-game.state.add("Mala", mala, true);
-
-game.state.add("Bala", bala, true);
-
-game.state.add("Anel", anel, true);
-
-game.state.add("Abacaxi", abacaxi, true);
 
 game.state.add("FonemaA", fonemaA, true);
 
 game.state.add("Tela2", tela2, true);
 
 game.state.add("Jogo2", jogo2, true);
-
-//game.state.add("Carregando", carregando, true);
 
 game.state.add("Iniciar", iniciar, true);
 

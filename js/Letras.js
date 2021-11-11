@@ -165,21 +165,7 @@ class Letras {
 
       game.time.events.repeat(Phaser.Timer.SECOND * 2, 1, this.Bola2, this);
     }
-    Bola2(){
-      game.state.start('FBola');
-    }
-    Bicicleta2(){
-      game.state.start('FBicicleta');
-    }
-    Abelha2(){
-      game.state.start('FAbelha');
-    }
-    Banana2(){
-      game.state.start('FBanana');
-    }
-    Bule2(){
-      game.state.start('FBule');
-    }
+
     letraA2(){
       game.state.start('FonemaA')
     }
