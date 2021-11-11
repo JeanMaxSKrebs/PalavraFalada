@@ -120,7 +120,7 @@ class Inicial
    this.load.image("Escolha","assets/Escolha2.png");
    this.load.image("Cav","assets/Cav.png");
    this.load.image("Pip","assets/Pip.png");
-   this.load.image("Aba","assets/Aba22.png");
+   this.load.image("Aba22","assets/Aba22.png");
    this.load.image("Cen","assets/Cen.png");
    this.load.image("Cin","assets/Cin.png");
    this.load.image("Escolha","assets/Escolha2.png");

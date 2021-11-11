@@ -247,7 +247,7 @@ Abacate(){
   this.comecar.events.onInputDown.add(this.INICIO1CA2, this);
 
 
-  this.add.sprite(130, 70,"Aba");
+  this.add.sprite(130, 70,"Aba22");
 
   var abacate2 = this.add.sprite(200, 250,"grande",5);
 
@@ -291,7 +291,6 @@ CA2CA2(){
   this.audio.src = "assets/sons/CA.mp3";
   this.audio.play();
 
-  this.linha.position.x = 345;
   this.linha2.position.x = 325;
 
   game.time.events.repeat(Phaser.Timer.SECOND * 0.7, 1, this.TE2CA2, this);
