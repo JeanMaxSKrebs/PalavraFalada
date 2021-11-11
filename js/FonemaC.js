@@ -670,7 +670,7 @@ Alce(){
 
   this.add.sprite(200, 70,"Alc");
 
-  var alce2 = this.add.sprite(200, 210,"grande",22);
+  var alce2 = this.add.sprite(200, 210,"grande",21);
 
   game.time.events.repeat(Phaser.Timer.SECOND * 1, 1, this.COMECAR, this);
 
