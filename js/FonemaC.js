@@ -819,7 +819,7 @@ CIN1CI1(){
 }
 TO1CI1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/TO.mp3";
+  this.audio.src = "assets/sons/To.mp3";
   this.audio.play();
 
   this.linha.position.x = 400;
