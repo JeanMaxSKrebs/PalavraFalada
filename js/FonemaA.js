@@ -36,7 +36,6 @@ class FonemaA
     this.fundo = this.add.sprite(0,0,"ceu");
     this.add.sprite(0,0,"FF3");
 
-
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
 
     this.cursors = this.input.keyboard.createCursorKeys();

@@ -22,7 +22,7 @@ class FonemaN
   this.load.image("Sino","assets/FonemaN/Sino.png");
   
  this.load.image("Proximo","assets/Proximo4.png");
- his.load.image("LN","assets/LetraN.png");
+ this.load.image("LN","assets/LetraN.png");
 
   this.load.image("Na","assets/Na.png");
   this.load.image("Ne","assets/Ne.png");
@@ -104,6 +104,8 @@ class FonemaN
  {
     //this.audiojogo();
     this.fundo = this.add.sprite(0,0,"ceu");
+    this.add.sprite(0,0,"FF3");
+
     this.D =  game.input.keyboard.addKey(Phaser.Keyboard.D);
 
     this.cursors = this.input.keyboard.createCursorKeys();
