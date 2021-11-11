@@ -105,9 +105,9 @@ class Inicial
    this.load.image("FBI","assets/FBI.png");
    this.load.image("Beb2","assets/Beb.png");
    this.load.image("Zum","assets/Zum.png");
-   this.load.image("FBO2","assets/FBO2.PNG");
-   this.load.image("FBO3","assets/FBO3.PNG");
-   this.load.image("FBO4","assets/FBO4.PNG");
+   this.load.image("FBO2","assets/FBO2.png");
+   this.load.image("FBO3","assets/FBO3.png");
+   this.load.image("FBO4","assets/FBO4.png");
    this.load.image("Boc","assets/Boc.png");
    this.load.image("Lob","assets/Lob.png");
    this.load.image("Ceb","assets/Ceb2.png");
