@@ -279,7 +279,7 @@ Ovo(){
       }
   BA2(){
         this.audio = new Audio();
-        this.audio.src = "assets/sons/VO.mp3";
+        this.audio.src = "assets/sons/vo.mp3";
         this.audio.play();
 
         this.linha.position.x = 1000;
@@ -360,7 +360,7 @@ I3(){
           }
 MA3(){
             this.audio = new Audio();
-            this.audio.src = "assets/sons/BO.mp3";
+            this.audio.src = "assets/sons/BO2.mp3";
             this.audio.play();
 
             this.linha.position.x = 355;
@@ -441,7 +441,7 @@ I4(){
     }
 GRE4(){
       this.audio = new Audio();
-      this.audio.src = "assets/sons/LHO.mp3";
+      this.audio.src = "assets/sons/Lho.mp3";
       this.audio.play();
 
       this.linha.position.x = 1000;
