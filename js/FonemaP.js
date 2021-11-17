@@ -329,7 +329,7 @@ INICIO1JA2(){
   this.repetir.position.x = 1000;
 }
 PI2JA2(){
-  this.audio.src = "assets/sons/SA.mp3";
+  this.audio.src = "assets/sons/sa.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(140, 140,"Linha");
@@ -1113,7 +1113,7 @@ INICIO1CO3(){
   this.repetir.position.x = 1000;
 }
 SU3CO3(){
-  this.audio.src = "assets/sons/SA.mp3";
+  this.audio.src = "assets/sons/sa.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(205, 140,"Linha");
