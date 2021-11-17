@@ -253,7 +253,7 @@ INICIO1DA2(){
 }
 AN2DA2(){
 
-  this.audio.src = "assets/sons/AN.mp3";
+  this.audio.src = "assets/sons/an.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(105, 140,"Linha");
@@ -263,7 +263,7 @@ AN2DA2(){
 }
 DAN2DA2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/DAN.mp3";
+  this.audio.src = "assets/sons/dan.mp3";
   this.audio.play();
 
   this.linha.position.x = 255;
@@ -340,7 +340,7 @@ INICIO1DA3(){
 }
 MO3DA3(){
 
-  this.audio.src = "assets/sons/MO.mp3";
+  this.audio.src = "assets/sons/mo.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(165, 140,"Linha");
@@ -408,7 +408,7 @@ De(){
 
   this.ld.position.x = 1000;
 
-  this.dedo = this.add.sprite(55, 240,"pequeno", 43);
+  this.dedo = this.add.sprite(55, 240,"pequeno", 42);
   this.dedo.inputEnabled = true;
   this.dedo.events.onInputDown.add(this.Dedo, this);
 
@@ -450,7 +450,7 @@ Dedo(){
 
   this.add.sprite(190, 70,"Ded");
 
-  var dedo2 = this.add.sprite(220, 220,"grande", 43);
+  var dedo2 = this.add.sprite(220, 220,"grande", 42);
 
   game.time.events.repeat(Phaser.Timer.SECOND * 1, 1, this.COMECAR, this);
 
@@ -565,7 +565,7 @@ CI2DE2(){
 }
 DEN2DE2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/DEN.mp3";
+  this.audio.src = "assets/sons/den.mp3";
   this.audio.play();
 
   this.linha3.position.x = 285;
@@ -644,7 +644,7 @@ INICIO1DE3(){
 }
 RE3DE3(){
 
-  this.audio.src = "assets/sons/RE.mp3";
+  this.audio.src = "assets/sons/Re.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(210, 140,"Linha");
@@ -653,7 +653,7 @@ RE3DE3(){
 }
 DE3DE3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/DE.mp3";
+  this.audio.src = "assets/sons/De.mp3";
   this.audio.play();
 
   this.linha.position.x = 340;
@@ -1189,7 +1189,7 @@ DO2DO2(){
 }
 IM2DO2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/IM.mp3";
+  this.audio.src = "assets/sons/im.mp3";
   this.audio.play();
 
   this.linha3.position.x = 495;
@@ -1216,7 +1216,7 @@ Calçado(){
   this.quad2.position.x = 1000;
   this.quad5.position.x = 1000;
   this.fundo.position.x = 1000;
-  this.fundo2 = this.add.sprite(0,0,"FDO3");
+  this.fundo2 = this.add.sprite(0,0,"FDO2");
   this.fundo.position.x = 1000;
 
   this.voltar1.position.x = 1000;
@@ -1269,7 +1269,7 @@ CAL3DO3(){
 }
 ÇA3DO3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/ÇA.mp3";
+  this.audio.src = "assets/sons/cedilha+a.mp3";
   this.audio.play();
 
   this.linha.position.x = 320;
@@ -1393,7 +1393,7 @@ DU1DU1(){
 }
 EN1DU1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/EN.mp3";
+  this.audio.src = "assets/sons/en.mp3";
   this.audio.play();
 
   this.linha.position.x = 295;
@@ -1402,7 +1402,7 @@ EN1DU1(){
 }
 DE1DU1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/DE.mp3";
+  this.audio.src = "assets/sons/De.mp3";
   this.audio.play();
 
   this.linha.position.x = 425;
