@@ -44,18 +44,6 @@ class FonemaL
 
       this.quad5 = this.add.sprite(510, 200,"Quadrado");
 
-
-
-      /*this.laranja = this.add.sprite(50, 220,"pequeno2", 11);
-
-      this.leao = this.add.sprite(295, 250,"pequeno2", 14);
-
-      this.lobo = this.add.sprite(150, 400,"pequeno",18);
-
-      this.limao = this.add.sprite(438, 400,"pequeno2", 17);
-
-      this.luva = this.add.sprite(530, 220,"pequeno2", 22);*/
-
       this.la = this.add.sprite(38, 205,"La");
       this.la.inputEnabled = true;
       this.la.events.onInputDown.add(this.La, this);
@@ -158,7 +146,7 @@ Laranja(){
   this.comecar.events.onInputDown.add(this.INICIO1JA1, this);
 
 
-  this.add.sprite(105, 70,"Lar");
+  this.add.sprite(105, 70,"Lar2");
 
   var laranja2 = this.add.sprite(200, 230,"grande2", 11);
 
@@ -260,7 +248,7 @@ Bolacha(){
   this.comecar.events.onInputDown.add(this.INICIO1JA2, this);
 
 
-  this.add.sprite(140, 70,"Bol");
+  this.add.sprite(140, 70,"Bolacha");
 
   var bolacha2 = this.add.sprite(200, 250,"grande2", 12);
 

@@ -454,9 +454,9 @@ class Inicial
    this.load.image("FLA1","assets/FLA1.png");
    this.load.image("FLA2","assets/FLA2.png");
    this.load.image("FLA3","assets/FLA3.png");
-   this.load.image("Lar","assets/Lar2.png");
+   this.load.image("Lar2","assets/Lar2.png");
    this.load.image("Jan","assets/Jan.png");
-   this.load.image("Bol","assets/Bol2.png");
+   this.load.image("Bolacha","assets/Bolacha.png");
 
    this.load.image("FLE1","assets/FLE1.png");
    this.load.image("FLE2","assets/FLE2.png");
