@@ -1123,7 +1123,7 @@ INICIO1CU1(){
 }
 CU1CU1(){
 
-  this.audio.src = "assets/sons/SU.mp3";
+  this.audio.src = "assets/sons/su.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(207, 140,"Linha");
@@ -1202,7 +1202,7 @@ INICIO1DU2(){
 }
 FE2DU2(){
 
-  this.audio.src = "assets/sons/PRE.mp3";
+  this.audio.src = "assets/sons/Pre.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(90, 140,"Linha");
