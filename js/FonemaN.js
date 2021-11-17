@@ -457,7 +457,7 @@ INICIO1JA3(){
 }
 CE3JA3(){
 
-  this.audio.src = "assets/sons/AN.mp3";
+  this.audio.src = "assets/sons/an.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(140, 140,"Linha");
@@ -972,7 +972,7 @@ INICIO1DI2(){
 }
 AR2DI2(){
 
-  this.audio.src = "assets/sons/ME.mp3";
+  this.audio.src = "assets/sons/Me.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(135, 140,"Linha");
