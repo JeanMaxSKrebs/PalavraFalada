@@ -729,7 +729,7 @@ INICIO1FE3(){
 }
 BI3FE3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/TO.mp3";
+  this.audio.src = "assets/sons/To.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(150, 140,"Linha");
@@ -1226,7 +1226,7 @@ INICIO1CO2(){
 }
 AN2CO2(){
 
-  this.audio.src = "assets/sons/CAR.mp3";
+  this.audio.src = "assets/sons/Car.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(125, 140,"Linha");
