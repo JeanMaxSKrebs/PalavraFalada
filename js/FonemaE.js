@@ -560,7 +560,7 @@ AR5(){
 }
 VO5(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/VO.mp3";
+  this.audio.src = "assets/sons/vo.mp3";
   this.audio.play();
 
   this.linha.position.x = 295;
@@ -569,7 +569,7 @@ VO5(){
 }
 RE5(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RE.mp3";
+  this.audio.src = "assets/sons/Re.mp3";
   this.audio.play();
 
   this.linha.position.x = 425;
