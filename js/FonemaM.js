@@ -712,7 +712,7 @@ FE3FE3(){
 }
 ME3FE3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/ME.mp3";
+  this.audio.src = "assets/sons/Me.mp3";
   this.audio.play();
 
   this.linha.position.x = 423;
@@ -833,7 +833,7 @@ CIN1CI1(){
 }
 TO1CI1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/LHO.mp3";
+  this.audio.src = "assets/sons/Lho.mp3";
   this.audio.play();
 
   this.linha.position.x = 320;
