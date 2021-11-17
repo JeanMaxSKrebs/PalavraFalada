@@ -215,7 +215,7 @@ Abacaxi(){
       this.comecar.events.onInputDown.add(this.INICIO2, this);
 
 
-      this.add.sprite(135, 70,"Aba");
+      this.add.sprite(100, 70,"Aba");
 
       var abacaxi2 = this.add.sprite(200, 210,"grande",0);
 
@@ -259,7 +259,6 @@ CA2(){
       this.audio.src = "assets/sons/CA.mp3";
       this.audio.play();
 
-      this.linha.position.x = 355;
       this.linha2.position.x = 330;
 
       game.time.events.repeat(Phaser.Timer.SECOND * 0.7, 1, this.XI2, this);
