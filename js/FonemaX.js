@@ -333,7 +333,7 @@ INICIO1JA2(){
   this.repetir.position.x = 1000;
 }
 PI2JA2(){
-  this.audio.src = "assets/sons/EN.mp3";
+  this.audio.src = "assets/sons/en.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(145, 140,"Linha");
@@ -530,7 +530,7 @@ INICIO1JE1(){
 }
 JE1JE1(){
 
-  this.audio.src = "assets/sons/XE.mp3";
+  this.audio.src = "assets/sons/Xe.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(158, 140,"Linha");
@@ -622,7 +622,7 @@ LA2JE2(){
 }
 RAN2JE2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/XE.mp3";
+  this.audio.src = "assets/sons/Xe.mp3";
   this.audio.play();
 
   this.linha.position.x = 240;
@@ -729,7 +729,7 @@ FE3FE3(){
 }
 XE3FE3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/XE.mp3";
+  this.audio.src = "assets/sons/Xe.mp3";
   this.audio.play();
 
   this.linha.position.x = 363;
