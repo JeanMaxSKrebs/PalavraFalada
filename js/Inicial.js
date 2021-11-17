@@ -17,6 +17,10 @@ class Inicial
 
     this.text.setTextBounds(0, 0, 0, 0);
     game.stage.backgroundColor = "#1D8B8B";
+
+    
+    this.load.image("fundoAjuda","assets/Fundo123.png");
+    this.load.image("fundoInfo","assets/fundoInfo.png");
     this.load.image("fundo","assets/TelaOficial.jpeg");
     this.load.image("play","assets/BotaoInicial.jpeg");
     this.load.image("menu","assets/BotaoMenu2.png");
@@ -615,11 +619,7 @@ class Inicial
 
     this.fundo = this.add.sprite(0,0,"fundo");
 
-    //var option = this.add.sprite(10,10,"Settings");
 
-    //var loja = this.add.sprite(640,10,"Shop");
-
-    //var info = this.add.sprite(10,540,"Info");
     this.play = this.add.sprite(215, 320,"play");
     this.play.inputEnabled = true;
     this.play.events.onInputDown.add(this.vaiJogar, this);
@@ -627,10 +627,6 @@ class Inicial
     this.menu = this.add.sprite(560, 40,"menu");
     this.menu.inputEnabled = true;
     this.menu.events.onInputDown.add(this.vaiQuadrado, this);
-
-    /*var voltar = this.add.sprite(600, 500,"voltar3");
-    voltar.inputEnabled = true;
-    voltar.events.onInputDown.add(this.VoltarInicio, this);*/
 
     this.quadrado = this.add.sprite(45,800,"quadrado");
 
@@ -649,9 +645,6 @@ class Inicial
       if(this.cont == "1"){
       this.quadrado.y = this.quadrado.y -15;
     }
-      this.fundo2 = this.add.sprite(0,0,"fundo2");
-      this.fundo2.sendToBack();
-      this.fundo.sendToBack();
       this.play.sendToBack();
       this.menu.sendToBack();
       if(this.quadrado.y == 170){
@@ -696,7 +689,6 @@ class Inicial
 
         this.tex2 = this.add.sprite(380, 390,"tex2");
 
-        //game.add.text(300,15,"INFORMAÇÕES",{fontSize:'15px',fill:'black'});
       }
       voltarInicial(){
         game.state.start('Iniciar');
@@ -708,7 +700,8 @@ class Inicial
         this.tex1.x = 1000;
         this.tex2.x = 1000;
         this.quadrado.sendToBack();
-        this.fundo3 = this.add.sprite(0,0,"fundo3");
+        this.fundoAjuda = this.add.sprite(0,0,"fundoAjuda");
+        this.fundoInfo = this.add.sprite(15,15,"fundoInfo");
 
         this.voltar1 = this.add.sprite(600, 510,"voltar2");
         this.voltar1.inputEnabled = true;
@@ -717,24 +710,25 @@ class Inicial
 
       Ajuda(){
 
-        this.fundo4 = this.add.sprite(0,0,"fundo4");
         this.info.position.x = 1000;
         this.ajuda.x = 1000;
         this.tex1.x = 1000;
         this.tex2.x = 1000;
         this.quadrado.sendToBack();
+        this.fundoAjuda = this.add.sprite(0,0,"fundoAjuda");
+
 
         this.voltar2 = this.add.sprite(600, 510,"voltar2");
         this.voltar2.inputEnabled = true;
         this.voltar2.events.onInputDown.add(this.Voltar, this);
 
-        /*game.add.text(20,150,'Olá, aqui vou ensinar você a como jogar!!!',{fontSize:'30px',fill:'white'});
-        game.add.text(50,200,'1- Escolha uma letra:',{fontSize:'30px',fill:'white'});
-        game.add.text(50,250,'2- Escolha uma das 5 sílabas da letra que',{fontSize:'30px',fill:'white'});
-        game.add.text(50,300,'você escolheu:',{fontSize:'30px',fill:'white'});
-        game.add.text(50,350,'3- Escolha a imagem que deseja aprender: ',{fontSize:'30px',fill:'white'});
-        game.add.text(50,400,'4- Clique em começar:',{fontSize:'30px',fill:'white'});
-        game.add.text(50,450,'5- Repita a palavra:',{fontSize:'30px',fill:'white'});*/
+        game.add.text(20,150,'Olá, aqui vou ensinar você a como jogar!!!',{fontSize:'30px',fill:'black'});
+        game.add.text(50,200,'1- Escolha uma letra:',{fontSize:'30px',fill:'black'});
+        game.add.text(50,250,'2- Escolha uma das 5 sílabas da letra que',{fontSize:'30px',fill:'black'});
+        game.add.text(50,300,'você escolheu:',{fontSize:'30px',fill:'black'});
+        game.add.text(50,350,'3- Escolha a imagem que deseja aprender: ',{fontSize:'30px',fill:'black'});
+        game.add.text(50,400,'4- Clique em começar:',{fontSize:'30px',fill:'black'});
+        game.add.text(50,450,'5- Repita a palavra:',{fontSize:'30px',fill:'black'});
       }
 
       Voltar()
