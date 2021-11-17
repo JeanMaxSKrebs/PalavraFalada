@@ -194,7 +194,7 @@ JA1JA1(){
 }
 CA1JA1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/ÇA2.mp3";
+  this.audio.src = "assets/sons/cedilha+a2.mp3";
   this.audio.play();
 
   this.linha.position.x = 360;
@@ -1326,7 +1326,7 @@ break;
 case "comida":
 letra.AcertouM();
 break;
-case "maça":
+case "maçã":
 letra.AcertouM();
 break;
 case "macaco":
