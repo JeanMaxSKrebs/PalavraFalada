@@ -68,7 +68,6 @@ class Inicial
    this.load.image("LB","assets/LetraB.png");
    this.load.image("Escolha","assets/Escolha4.png");
    this.load.image("Escolha2","assets/Escolha5.png");
-   this.load.image("Bol","assets/Bol.png");
    this.load.image("Bic","assets/Bic.png");
    this.load.image("Abe","assets/Abe.png");
    this.load.image("Ban","assets/Ban.png");
