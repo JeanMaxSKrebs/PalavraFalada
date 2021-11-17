@@ -473,7 +473,7 @@ I5(){
         }
 LHA5(){
           this.audio = new Audio();
-          this.audio.src = "assets/sons/RU.mp3";
+          this.audio.src = "assets/sons/ru.mp3";
           this.audio.play();
 
           this.linha.position.x = 1000;
