@@ -397,7 +397,7 @@ Ancora(){
   this.comecar.events.onInputDown.add(this.INICIO1JA3, this);
 
 
-  this.add.sprite(145, 70,"Anc");
+  this.add.sprite(145, 70,"Anc4");
 
   var ancora2 = this.add.sprite(240, 230,"grande",22);
 
@@ -419,7 +419,7 @@ INICIO1JA3(){
 }
 CE3JA3(){
 
-  this.audio.src = "assets/sons/AN.mp3";
+  this.audio.src = "assets/sons/an.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(135, 140,"Linha");
@@ -542,7 +542,7 @@ INICIO1JE1(){
 }
 JE1JE1(){
 
-  this.audio.src = "assets/sons/RE.mp3";
+  this.audio.src = "assets/sons/Re.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(115, 150,"Linha");
@@ -650,7 +650,7 @@ LA2JE2(){
 }
 RAN2JE2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RE.mp3";
+  this.audio.src = "assets/sons/Re.mp3";
   this.audio.play();
 
   this.linha.position.x = 280;
@@ -659,7 +659,7 @@ RAN2JE2(){
 }
 JE2JE2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/DE.mp3";
+  this.audio.src = "assets/sons/DE2.mp3";
   this.audio.play();
 
   this.linha.position.x = 410;
@@ -733,7 +733,7 @@ BI3FE3(){
 }
 FE3FE3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/VO.mp3";
+  this.audio.src = "assets/sons/vo.mp3";
   this.audio.play();
 
   this.linha.position.x = 285;
@@ -742,7 +742,7 @@ FE3FE3(){
 }
 RE3FE3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RE.mp3";
+  this.audio.src = "assets/sons/Re.mp3";
   this.audio.play();
 
   this.linha.position.x = 415;
@@ -1390,7 +1390,7 @@ INICIO1CU1(){
 }
 CU1CU1(){
 
-  this.audio.src = "assets/sons/RU.mp3";
+  this.audio.src = "assets/sons/ru.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(240, 140,"Linha");
@@ -1480,7 +1480,7 @@ FE2DU2(){
 }
 RRA2DU2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RU.mp3";
+  this.audio.src = "assets/sons/ru.mp3";
   this.audio.play();
 
   this.linha.position.x = 217;
@@ -1572,7 +1572,7 @@ E3DU3(){
 }
 DU3DU3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RU.mp3";
+  this.audio.src = "assets/sons/ru.mp3";
   this.audio.play();
 
   this.linha.position.x = 345;
