@@ -223,7 +223,7 @@ INICIO1JA1(){
 }
 JA1JA1(){
 
-  this.audio.src = "assets/sons/SA.mp3";
+  this.audio.src = "assets/sons/sa.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(220, 140,"Linha");
@@ -318,7 +318,7 @@ PI2JA2(){
 }
 JA2JA2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/SA.mp3";
+  this.audio.src = "assets/sons/sa.mp3";
   this.audio.play();
 
   this.linha.position.x = 275;
@@ -406,7 +406,7 @@ CE3JA3(){
 }
 RE3JA3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/SA.mp3";
+  this.audio.src = "assets/sons/sa.mp3";
   this.audio.play();
 
   this.linha.position.x = 370;
