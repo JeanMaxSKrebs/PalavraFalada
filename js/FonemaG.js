@@ -864,7 +864,7 @@ GO2GO2(){
 }
 DE2GO2(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/DE.mp3";
+  this.audio.src = "assets/sons/De.mp3";
   this.audio.play();
 
   this.linha.position.x = 410;
