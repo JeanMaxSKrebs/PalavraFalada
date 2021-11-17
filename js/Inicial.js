@@ -486,9 +486,12 @@ class Inicial
    this.load.image("Seta2","assets/Seta4.png");
    this.load.image("Proximo","assets/Proximo4.png");
    this.load.image("Linha","assets/Linha2a.png");
+   this.load.image("Linha2a","assets/Linha2a.png");
    this.load.image("Linha2","assets/LinhaBE3.png");
    this.load.image("Quadrado","assets/Quadrado3.png");
    this.load.image("LM","assets/LetraM.png");
+   this.load.image("Linha2aa","assets/Linha2aa.png");
+   this.load.image("Linha3","assets/Linha3.png");
 
 
    this.load.image("Ma","assets/Ma.png");

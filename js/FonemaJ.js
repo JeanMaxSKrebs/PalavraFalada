@@ -57,21 +57,6 @@ class FonemaJ
 
       this.quad5 = this.add.sprite(510, 200,"Quadrado");
 
-
-
-      //this.tijolo = this.add.sprite(50, 220,"pequeno2", 7);
-
-      //this.jipe = this.add.sprite(295, 250,"pequeno2", 5);
-
-      //this.jegue = this.add.sprite(150, 400,"pequeno2", 3);
-
-      //this.juiz = this.add.sprite(438, 400,"pequeno2", 9);
-
-      //this.jacare = this.add.sprite(530, 220,"pequeno2", 0);
-
-
-
-
       this.ja = this.add.sprite(38, 205,"Ja");
       this.ja.inputEnabled = true;
       this.ja.events.onInputDown.add(this.Ja, this);
@@ -171,7 +156,7 @@ Jacare(){
   this.comecar.events.onInputDown.add(this.INICIO1JA1, this);
 
 
-  this.add.sprite(150, 70,"Jac");
+  this.add.sprite(150, 70,"Jac2");
 
   var jacare2 = this.add.sprite(200, 250,"grande2", 0);
 
@@ -383,7 +368,7 @@ CE3JA3(){
 }
 RE3JA3(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/RE.mp3";
+  this.audio.src = "assets/sons/Re.mp3";
   this.audio.play();
 
   this.linha.position.x = 285;
@@ -610,7 +595,7 @@ I2JE2(){
   this.audio.src = "assets/sons/I.mp3";
   this.audio.play();
 
-  this.linha4 = this.add.sprite(467, 120,"Linha3");
+  this.linha4 = this.add.sprite(467, 120,"Linha2aa");
 
   this.linha.position.x = 1000;
 
@@ -848,12 +833,12 @@ CO1CO1(){
 }
 RU1CO1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/Ã.mp3";
+  this.audio.src = "assets/sons/a+til.mp3";
   this.audio.play();
 
   this.linha.position.x = 1000;
 
-  this.linha2 = this.add.sprite(210, 135,"Linha4");
+  this.linha2 = this.add.sprite(210, 135,"Linha2aa");
 
   game.time.events.repeat(Phaser.Timer.SECOND * 0.7, 1, this.JA1CO1, this);
 }
@@ -1034,7 +1019,7 @@ E3CO3(){
 
   this.linha.position.x = 1000;
 
-  this.linha2 = this.add.sprite(305, 135,"Linha4");
+  this.linha2 = this.add.sprite(305, 135,"Linha2aa");
 
   game.time.events.repeat(Phaser.Timer.SECOND * 0.7, 1, this.CO3CO3, this);
 }
