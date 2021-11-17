@@ -381,7 +381,7 @@ JE1JE1(){
 }
 GUE1JE1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/BRA.mp3";
+  this.audio.src = "assets/sons/bra.mp3";
   this.audio.play();
 
   this.linha.position.x = 315;
