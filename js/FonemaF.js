@@ -492,7 +492,7 @@ Cafeteira(){
   this.quad2.position.x = 1000;
   this.quad3.position.x = 1000;
   this.fundo.position.x = 1000;
-  this.fundo2 = this.add.sprite(0,0,"FFE2");
+  this.fundo2 = this.add.sprite(0,0,"FFE3");
   this.fundo.position.x = 1000;
 
   this.voltar1.position.x = 1000;
@@ -894,7 +894,7 @@ Fofoca(){
   this.quad2.position.x = 1000;
   this.quad5.position.x = 1000;
   this.fundo.position.x = 1000;
-  this.fundo2 = this.add.sprite(0,0,"FFO2");
+  this.fundo2 = this.add.sprite(0,0,"FFO1");
   this.fundo.position.x = 1000;
 
   this.voltar1.position.x = 1000;
@@ -1079,17 +1079,13 @@ Fu(){
 
   this.lf.position.x = 1000;
 
-  this.furadeira = this.add.sprite(50, 240,"Furadeira");
+  this.furadeira = this.add.sprite(50, 240, "pequeno", 65);
   this.furadeira.inputEnabled = true;
   this.furadeira.events.onInputDown.add(this.Furadeira, this);
 
   this.perfume = this.add.sprite(295, 370,"pequeno", 68);
   this.perfume.inputEnabled = true;
   this.perfume.events.onInputDown.add(this.Perfume, this);
-
-  /*this.edu = this.add.sprite(530, 255,"Edu");
-  this.edu.inputEnabled = true;
-  this.edu.events.onInputDown.add(this.Edu, this);*/
 }
 
 Furadeira(){
@@ -1119,7 +1115,7 @@ Furadeira(){
 
   this.add.sprite(65, 70,"Fur");
 
-  var furadeira2 = this.add.sprite(200, 210,"Furadeira2");
+  var furadeira2 = this.add.sprite(200, 210, "grande", 65);
 
   game.time.events.repeat(Phaser.Timer.SECOND * 1, 1, this.COMECAR, this);
 
