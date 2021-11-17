@@ -488,7 +488,7 @@ JE1JE1(){
 }
 GUE1JE1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/ÃO.mp3";
+  this.audio.src = "assets/sons/ao+til.mp3";
   this.audio.play();
 
   this.linha.position.x = 335;
@@ -794,7 +794,7 @@ CIN1CI1(){
 }
 TO1CI1(){
   this.audio = new Audio();
-  this.audio.src = "assets/sons/MÃO.mp3";
+  this.audio.src = "assets/sons/mao+til.mp3";
   this.audio.play();
 
   this.linha.position.x = 295;
@@ -1070,7 +1070,7 @@ INICIO1CO2(){
 }
 AN2CO2(){
 
-  this.audio.src = "assets/sons/EN.mp3";
+  this.audio.src = "assets/sons/en.mp3";
   this.audio.play();
 
   this.linha = this.add.sprite(110, 140,"Linha");
